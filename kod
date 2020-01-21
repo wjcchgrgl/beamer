@@ -1,0 +1,96 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  \usecolortheme{default}
+  \usefonttheme{default}
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+  \setbeamertemplate{caption}{\insertcaption}
+} 
+
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\title{Wybór przedmiotów na drugi semestr}
+\author{Wojciech Gurgul}
+\institute{Instytut Informatyki}
+\date{22.01.2019}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Przed drugim semestrem}
+
+\begin{alertblock}{Krok pierwszy}
+Zaliczyć analizę matematyczną...
+\end{alertblock}
+
+\end{frame}
+
+\begin{frame}{Wymagania, cele}
+
+\begin{itemize}
+  \item Co najmniej 30 punktów ECTS
+  \pause
+  \item Przedmioty obowiązkowe
+  \pause
+  \item Lektorat - jaki język?
+  \pause
+  \item Przedmiot humanistyczny?
+  \pause
+  \item Sport?
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Przedmioty obowiązkowe}
+\begin{table}
+\centering
+\begin{tabular}{l|r}
+Przedmiot & ECTS \\\hline
+Algebra & 7 \\
+Metody programowania & 9
+\end{tabular}
+
+\end{table}
+\begin{itemize}
+\item Przedmioty obowiązkowe dają ponad połowę wymaganych punktów ECTS
+\item Tygodniowo 5 godzin algebry, 6 godzin metod programowania
+
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}{Przedmioty nieobowiązkowe}
+\begin{table}
+\centering
+\begin{tabular}{l|m|r}
+Przedmiot & Ile godzin & ECTS \\\hline
+Programowanie obiektowe & 60 & 6 \\
+Bazy danych & 60 & 6\\
+Teoretyczne podstawy języków programowania & 60 & 6\\
+Kurs języka C++ & 60 & 5\\
+Minikurs języka C & 15 & 2
+
+\end{tabular}
+\caption{Rozważane przedmioty}
+\end{table}
+\end{frame}
+
+
+
+\end{document}
